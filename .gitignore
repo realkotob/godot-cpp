@@ -1,5 +1,22 @@
+# Godot auto generated files
+*.gen.*
+.import/
+.godot/
+/gen/
+
+# Godot 3.x ignores
+include/gen
+src/gen
+
+# Build configuration.
+/custom.py
+
 # Misc
 logs/*
+*.log
+
+# The default cache directory
+cache/
 
 # Binaries
 *.o
@@ -17,6 +34,7 @@ bin
 *.creator.user
 *.files
 *.includes
+*.idb
 
 # Gprof output
 gmon.out
@@ -82,7 +100,7 @@ AppPackages/
 
 # Others
 sql/
-*.Cache
+*.[Cc]ache
 ClientBin/
 [Ss]tyle[Cc]op.*
 ~$*
@@ -173,3 +191,14 @@ godot.creator.*
 
 # compile commands (https://clang.llvm.org/docs/JSONCompilationDatabase.html)
 compile_commands.json
+
+# Python development
+.venv
+venv
+
+# Clion Configuration
+.idea/
+cmake-build*/
+
+# CMake related
+CMakeUserPresets.json
